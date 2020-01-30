@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #7FCD91;
+  --color-secondary:#363131 ;
+
+
+  --font-primary: "Karla", sans-serif ;
+  --font-secondary: "Barlow Condensed", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary)
+}
