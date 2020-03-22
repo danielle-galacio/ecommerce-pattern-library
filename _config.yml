@@ -2,4 +2,60 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Happy Cup"
+  description:
+    A small coffee company specializing in iced coffee concentrate that is brewed and bottled in Ontario, Canada.
   font_url: "https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700|Karla:400,700&display=swap"
+  colors:
+    background: #fff;
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-accent"
+      icons.icons: "--color-secondary-dark"
+      buttons.basic:  "--color-accent"
+      buttons.light:  "--color-accent"
+      forms.radiobuttons: "--color-accent"
+      forms.checkboxes: "--color-accent"
+      forms.text-inputs: "--color-accent"
+      forms.date-pickers: "--color-accent"
+      forms.labels: "--color-accent"
+      forms.autocomplete-field: "--color-accent"
+      forms.date-picker: "--color-accent"
+
+
+  rationales:
+    typefaces.primary: |
+      Karla was selected because it is a modern font that goes well with the company's look. Karla is to be used for all body copy and most situations.
+    typefaces.secondary: |
+      Barlow Condensed is only to be used for highlighting text: headings, buttons, banners, etc.
+    colors.primary: |
+      The primary colours represent how the coffee is made from organic coffee beans. They should be used for text and in foregrounds.
+    colors.secondary: |
+      The secondary colours are darker earth colours that represent the coffee and should be used for backgrounds.
+
+  layouts:
+    defaults: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+
+patterns:
+  product-card:
+    width: 400
+    description: |
+      The product card is used on the product listing page to display each available product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.product[0]"
+          type: Product
+
+
+collections:
+  products:
+    output: true
+
+defaults:
+    - scope:
+        path: _products
+      values:
+        layout: product

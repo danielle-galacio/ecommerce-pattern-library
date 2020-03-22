@@ -1,0 +1,15 @@
+input {
+  border: 2px solid var(--color-primary-light);
+}
+
+[type="checkbox"] + label::before {
+  border: 2px solid var(--color-primary-light);
+}
+
+[type="radio"] + label::before {
+  border: 2px solid var(--color-primary-light);
+}
+
+select {
+  border: 2px solid var(--color-primary-light);
+}

@@ -1,0 +1,17 @@
+.home-banner {
+  background-color: white;
+}
+
+.classic {
+  width: 250px;
+  filter : drop-shadow(-27px 19px 7px  rgba(000, 0, 0, 0.1));
+}
+
+h1 {
+  color: var(--color-secondary-dark);
+  font: var(--font-secondary);
+}
+
+p {
+  color: var(--color-secondary-dark);
+}

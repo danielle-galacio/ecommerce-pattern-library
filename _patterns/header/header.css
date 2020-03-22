@@ -1,0 +1,64 @@
+header {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+  background-color: white;
+}
+
+a span {
+  color: var(--color-secondary-dark);
+}
+
+a span:hover {
+  color: #7fcd91;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: var(--font-secondary);
+}
+
+name {
+  color: var(--color-primary);
+}
+
+ul, name {
+  text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 38em) {
+
+  ul {
+    text-align: right;
+  }
+
+  name {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  ul {
+    text-align: right;
+  }
+
+  name {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  ul {
+    text-align: right;
+  }
+
+  name {
+    text-align: left;
+  }
+
+}

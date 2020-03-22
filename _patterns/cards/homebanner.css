@@ -1,0 +1,28 @@
+.banner {
+  background-color: var(--color-accent);
+  position: relative;
+}
+
+.banner-img {
+  position: relative;
+  left: 10%;
+  top: 100%;
+}
+
+.banner-img2 {
+  position: relative;
+  left: 10%;
+}
+
+.title {
+  color: var(--color-secondary);
+}
+
+div {
+  overflow: hidden;
+}
+
+section {
+  padding-left: 0;
+  padding-right: 0;
+}

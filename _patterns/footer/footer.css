@@ -1,0 +1,16 @@
+footer {
+  background-color: var(--color-secondary-dark);
+}
+
+a {
+  color: var(--color-accent);
+  font-weight: normal;
+}
+
+span {
+  color: var(--color-primary);
+}
+
+p {
+  color: var(--color-accent);
+}
