@@ -7,6 +7,10 @@ a {
   font-weight: normal;
 }
 
+a:hover {
+
+}
+
 span {
   color: var(--color-primary);
 }
